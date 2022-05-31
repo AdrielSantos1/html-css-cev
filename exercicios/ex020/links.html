@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        a:visited {
+            color: rgb(19, 210, 188);
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::before {
+            content: '⇒ ';
+            text-decoration: none;
+            
+            color: darkgray
+        }
+
+        a::after {
+            content: ' ⇐';
+            text-decoration: none;
+            color: darkgray;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li>
+            <a href="https://github.com/AdrielSantos1" target="_blank" rel="external">Repositório GitHub</a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com/" target="_blank" rel="external">Canal do YouTube</a>
+        </li>
+            
+        <li>
+            <a href="https://www.linkedin.com/in/adriel-santos-073993239/" target="_blank" rel="external">Perfil do Linkedin</a>
+        </li>
+    </ul>    
+</body>
+</html>
